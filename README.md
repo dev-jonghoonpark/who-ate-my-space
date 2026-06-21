@@ -161,3 +161,9 @@ Sources/WhoAteMySpace/
 ## License
 
 Released under the [MIT License](LICENSE). © 2026 Jonghoon Park.
+
+## Support
+
+If you find this useful, you can support the project:
+
+<a href="https://buymeacoffee.com/jonghoonpark"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>

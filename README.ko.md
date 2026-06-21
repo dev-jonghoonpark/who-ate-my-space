@@ -139,3 +139,9 @@ Sources/WhoAteMySpace/
 ## 라이선스
 
 [MIT License](LICENSE)로 배포됩니다. © 2026 Jonghoon Park.
+
+## 후원
+
+도움이 되었다면 프로젝트를 후원해 주세요:
+
+<a href="https://buymeacoffee.com/jonghoonpark"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee"></a>
