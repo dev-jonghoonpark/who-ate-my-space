@@ -7,10 +7,32 @@ DerivedData/
 dist/
 *.app
 *.dmg
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.hmap
+*.pbxuser
+!default.pbxuser
+xcuserdata/
+*.xcworkspace/xcuserdata/
 
 # macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
 
-# Xcode 사용자 설정
-xcuserdata/
-*.xcworkspace/xcuserdata/
+# 기타
+*.swp
+*~
+.idea/
