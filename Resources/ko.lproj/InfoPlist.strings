@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "Who Ate My Space";
+"NSDesktopFolderUsageDescription" = "스캔하려는 폴더의 디스크 사용량을 분석합니다.";
+"NSDocumentsFolderUsageDescription" = "스캔하려는 폴더의 디스크 사용량을 분석합니다.";
+"NSDownloadsFolderUsageDescription" = "스캔하려는 폴더의 디스크 사용량을 분석합니다.";
+"NSRemovableVolumesUsageDescription" = "스캔하려는 볼륨의 디스크 사용량을 분석합니다.";

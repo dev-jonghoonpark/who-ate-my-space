@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "Who Ate My Space";
+"NSDesktopFolderUsageDescription" = "Analyzes the disk usage of the folder you choose to scan.";
+"NSDocumentsFolderUsageDescription" = "Analyzes the disk usage of the folder you choose to scan.";
+"NSDownloadsFolderUsageDescription" = "Analyzes the disk usage of the folder you choose to scan.";
+"NSRemovableVolumesUsageDescription" = "Analyzes the disk usage of the volume you choose to scan.";

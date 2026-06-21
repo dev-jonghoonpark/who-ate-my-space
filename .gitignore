@@ -1,0 +1,16 @@
+# XcodeGen 생성물 (project.yml에서 재생성)
+WhoAteMySpace.xcodeproj/
+
+# 빌드 산출물
+build/
+DerivedData/
+dist/
+*.app
+*.dmg
+
+# macOS
+.DS_Store
+
+# Xcode 사용자 설정
+xcuserdata/
+*.xcworkspace/xcuserdata/

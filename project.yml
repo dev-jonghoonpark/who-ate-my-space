@@ -1,0 +1,60 @@
+name: WhoAteMySpace
+options:
+  bundleIdPrefix: dev.hooney
+  deploymentTarget:
+    macOS: "13.0"
+  createIntermediateGroups: true
+
+settings:
+  base:
+    MARKETING_VERSION: "0.1.0"
+    CURRENT_PROJECT_VERSION: "1"
+    SWIFT_VERSION: "5.9"
+    DEVELOPMENT_TEAM: ""
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_HARDENED_RUNTIME: YES
+
+targets:
+  WhoAteMySpace:
+    type: application
+    platform: macOS
+    sources:
+      - Sources/WhoAteMySpace
+      - path: Resources/en.lproj
+        buildPhase: resources
+      - path: Resources/ko.lproj
+        buildPhase: resources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.hooney.WhoAteMySpace
+        PRODUCT_NAME: WhoAteMySpace
+        INFOPLIST_FILE: Resources/Info.plist
+        CODE_SIGN_ENTITLEMENTS: Resources/WhoAteMySpace.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        COMBINE_HIDPI_IMAGES: YES
+        LD_RUNPATH_SEARCH_PATHS:
+          - "@executable_path/../Frameworks"
+
+  WhoAteMySpaceTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - Tests/WhoAteMySpaceTests
+    dependencies:
+      - target: WhoAteMySpace
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.hooney.WhoAteMySpaceTests
+
+schemes:
+  WhoAteMySpace:
+    build:
+      targets:
+        WhoAteMySpace: all
+        WhoAteMySpaceTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - WhoAteMySpaceTests

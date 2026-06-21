@@ -1,0 +1,56 @@
+/* Idle screen */
+"Select a folder or volume to see its disk usage as a treemap." = "Select a folder or volume to see its disk usage as a treemap.";
+"Choose a folder to scan" = "Choose a folder to scan";
+"Home" = "Home";
+
+/* Header bar */
+"Choose folder" = "Choose folder";
+"Rescan" = "Rescan";
+"Up one level" = "Up one level";
+"Total %@" = "Total %@";
+
+/* Status bar */
+"Free %@" = "Free %@";
+"Capacity %@" = "Capacity %@";
+"Free %@ · Capacity %@" = "Free %@ · Capacity %@";
+"Hover over an item to see details." = "Hover over an item to see details.";
+
+/* Alerts */
+"Error" = "Error";
+"OK" = "OK";
+
+/* Scan progress */
+"Scanning…" = "Scanning…";
+"%lld files · %@" = "%lld files · %@";
+"Cancel" = "Cancel";
+
+/* Treemap context menu */
+"Reveal in Finder" = "Reveal in Finder";
+"Open" = "Open";
+"Zoom in here" = "Zoom in here";
+"Copy path" = "Copy path";
+"Move to Trash…" = "Move to Trash…";
+"Right-click an item." = "Right-click an item.";
+
+/* Open panel */
+"Scan" = "Scan";
+"Choose a folder or volume to analyze." = "Choose a folder or volume to analyze.";
+
+/* Trash */
+"The scan root cannot be deleted." = "The scan root cannot be deleted.";
+"Couldn't move to Trash: %@" = "Couldn't move to Trash: %@";
+"Move “%@” to the Trash?" = "Move “%@” to the Trash?";
+"Size: %@\nPath: %@" = "Size: %@\nPath: %@";
+"Move to Trash" = "Move to Trash";
+
+/* File categories */
+"category.folder" = "Folders";
+"category.image" = "Images";
+"category.video" = "Video";
+"category.audio" = "Audio";
+"category.document" = "Documents";
+"category.code" = "Code";
+"category.archive" = "Archives";
+"category.app" = "Apps / Executables";
+"category.disk" = "Disk Images";
+"category.other" = "Other";
